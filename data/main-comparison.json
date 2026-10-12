@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "evidence_status": "paper-reported; not reproduced by this repository",
+  "source_version": "2609.37226v1",
+  "sources": [
+    {
+      "table": 1,
+      "page": 7,
+      "url": "https://arxiv.org/pdf/2609.37226v1#page=7"
+    },
+    {
+      "table": 6,
+      "page": 17,
+      "url": "https://arxiv.org/pdf/2609.37226v1#page=17"
+    }
+  ],
+  "definitions": {
+    "overall_quality": "Equal mean of EnterpriseRAG-Bench mean(document recall, correctness, completeness), WixQA mean(context recall, factuality), and HERB content; includes both retrieval and answer quality.",
+    "relative_input_tokens": "Geometric mean of within-benchmark input-token ratios to Raw Corpus for each model.",
+    "quality_gain": "Table 6 paper-reported paired-bootstrap aggregate-quality difference; tiny deviations from subtracting rounded Table 1 entries are consistent with rounding.",
+    "scope": "Four GPT models and three selected benchmark subsets; per-benchmark Table 1 effectiveness means and standard deviations use three runs. These intervals test aggregate quality, not token savings.",
+    "approximate_aggregate_token_reduction_percent": "Companion calculation: 100*(1-displayed relative ratio)."
+  },
+  "comparisons": [
+    {
+      "model": "GPT-5.5",
+      "raw_overall_quality": 66.11,
+      "corpusmap_overall_quality": 72.55,
+      "reported_quality_gain_points": 6.45,
+      "reported_gain_ci95_points": [
+        4.3,
+        8.62
+      ],
+      "relative_input_tokens": 0.43,
+      "approximate_aggregate_token_reduction_percent": 57
+    },
+    {
+      "model": "GPT-5.6 Luna",
+      "raw_overall_quality": 53.85,
+      "corpusmap_overall_quality": 65.58,
+      "reported_quality_gain_points": 11.74,
+      "reported_gain_ci95_points": [
+        9.4,
+        14.07
+      ],
+      "relative_input_tokens": 0.65,
+      "approximate_aggregate_token_reduction_percent": 35
+    },
+    {
+      "model": "GPT-5.6 Terra",
+      "raw_overall_quality": 65.75,
+      "corpusmap_overall_quality": 72.51,
+      "reported_quality_gain_points": 6.76,
+      "reported_gain_ci95_points": [
+        4.34,
+        9.19
+      ],
+      "relative_input_tokens": 0.66,
+      "approximate_aggregate_token_reduction_percent": 34
+    },
+    {
+      "model": "GPT-5.6 Sol",
+      "raw_overall_quality": 67.69,
+      "corpusmap_overall_quality": 74.68,
+      "reported_quality_gain_points": 7,
+      "reported_gain_ci95_points": [
+        5.05,
+        8.94
+      ],
+      "relative_input_tokens": 0.43,
+      "approximate_aggregate_token_reduction_percent": 57
+    }
+  ],
+  "qualifications": [
+    "Aggregate savings do not imply savings on every dataset/model or question.",
+    "Table 2 MAI-Thinking-1 has higher quality and more input tokens than Raw Corpus.",
+    "Table 8 no-candidate CorpusMap has higher quality and more input tokens than Raw Corpus.",
+    "Input-token ratios do not include offline construction cost.",
+    "Official project and code links have not been verified."
+  ]
+}

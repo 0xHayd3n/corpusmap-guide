@@ -1,0 +1,27 @@
+# CorpusMap reading companion
+
+> Unofficial guide to Follow the Entities: A Corpus Map for Agentic Search, arXiv:2609.37226v1, by Soyeong Jeong, Sujay Kumar Jauhar, Sung Ju Hwang, and Andrew Joohun Nam. Original notes; no implementation or reproduced experiments.
+
+## Entry points
+
+- [Agent instructions](AGENTS.md): evidence and routing rules.
+- [README](README.md): overview, qualified headline evidence, and human navigation.
+- [Machine-readable metadata](metadata.json): exact source version, author attribution, and scope.
+- [Reading map](docs/reading-map.md): source section/page index.
+
+## Detailed notes
+
+- [Method](docs/method.md): construction and navigation.
+- [Notation](docs/notation.md): formal objects and glossary.
+- [Evaluation](docs/evaluation.md): selected datasets, baselines, metrics, and protocol.
+- [Results](docs/results.md): numerical evidence and ablations with qualifications.
+- [Visual guide](docs/visual-guide.md): figure/table reading and locators.
+- [Limitations](docs/limitations.md): paper cautions and companion questions.
+- [Reproduction](docs/reproduction.md): prerequisites for a future independent reproduction.
+
+## Provenance
+
+- [Sources](SOURCES.md): source access, version verification, license and project-link status.
+- [Notice](NOTICE.md): attribution and material exclusions.
+- [Citation](CITATION.cff): preferred paper citation.
+- [BibTeX](references/paper.bib): v1 citation.

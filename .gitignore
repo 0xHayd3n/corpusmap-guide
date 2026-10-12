@@ -1,0 +1,13 @@
+# Source bytes and intermediate inspection output must remain outside this repo.
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.tmp
+__pycache__/
+.venv/
+.env
+source-local/
+private-transfer/
+validation-output/

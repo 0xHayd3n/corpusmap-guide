@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "Please cite the paper by Jeong, Jauhar, Hwang, and Nam when using CorpusMap ideas or results. This repository is an unofficial reading companion; its preferred citation is the paper."
+type: software
+title: "CorpusMap Guide: an unofficial reading companion"
+authors:
+  - name: "0xHayd3n (reading-companion curator; not a paper author)"
+repository-code: "https://github.com/0xHayd3n/corpusmap-guide"
+url: "https://github.com/0xHayd3n/corpusmap-guide"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Follow the Entities: A Corpus Map for Agentic Search"
+  authors:
+    - family-names: Jeong
+      given-names: Soyeong
+      affiliation: KAIST
+    - family-names: Jauhar
+      given-names: Sujay Kumar
+      affiliation: Microsoft
+    - family-names: Hwang
+      given-names: Sung Ju
+      affiliation: KAIST
+    - family-names: Nam
+      given-names: Andrew Joohun
+      affiliation: Microsoft
+  year: 2026
+  month: 9
+  date-published: "2026-09-29"
+  version: "1"
+  doi: "10.48550/arXiv.2609.37226"
+  url: "https://arxiv.org/abs/2609.37226v1"
+  journal: "arXiv preprint"
+  notes: "Exact source arXiv:2609.37226v1. Work-level DOI is listed by arXiv with registration pending as checked 2026-10-12; use the versioned URL to identify v1."

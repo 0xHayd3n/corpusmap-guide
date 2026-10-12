@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "unofficial_paper_reading_companion",
+  "repository": {
+    "owner": "0xHayd3n",
+    "name": "corpusmap-guide",
+    "url": "https://github.com/0xHayd3n/corpusmap-guide",
+    "curator_is_paper_author": false
+  },
+  "paper": {
+    "title": "Follow the Entities: A Corpus Map for Agentic Search",
+    "authors": [
+      {
+        "name": "Soyeong Jeong",
+        "given_names": "Soyeong",
+        "family_name": "Jeong",
+        "affiliation": "KAIST"
+      },
+      {
+        "name": "Sujay Kumar Jauhar",
+        "given_names": "Sujay Kumar",
+        "family_name": "Jauhar",
+        "affiliation": "Microsoft"
+      },
+      {
+        "name": "Sung Ju Hwang",
+        "given_names": "Sung Ju",
+        "family_name": "Hwang",
+        "affiliation": "KAIST"
+      },
+      {
+        "name": "Andrew Joohun Nam",
+        "given_names": "Andrew Joohun",
+        "family_name": "Nam",
+        "affiliation": "Microsoft"
+      }
+    ],
+    "arxiv_id": "2609.37226",
+    "version": "v1",
+    "versioned_id": "2609.37226v1",
+    "submitted_at": "2026-09-29T10:39:57Z",
+    "status": "preprint",
+    "pages": 29,
+    "subjects": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR",
+      "cs.LG"
+    ],
+    "doi": "10.48550/arXiv.2609.37226",
+    "doi_status_in_arxiv_record": "pending registration",
+    "canonical_url": "https://arxiv.org/abs/2609.37226v1",
+    "pdf_url": "https://arxiv.org/pdf/2609.37226v1",
+    "html_url": "https://arxiv.org/html/2609.37226v1",
+    "official_project_url": null,
+    "official_code_url": null,
+    "official_link_verification_scope": "No author-designated CorpusMap project/code URL identified in the v1 PDF (including URI annotations), arXiv record, or versioned HTML. This does not prove absence elsewhere.",
+    "license": {
+      "name": "arXiv.org perpetual non-exclusive distribution license",
+      "url": "https://arxiv.org/licenses/nonexclusive-distrib/1.0/license.html",
+      "general_repository_redistribution_permission_established": false
+    }
+  },
+  "companion": {
+    "created_on": "2026-10-12",
+    "original_content_license": "MIT",
+    "license_scope": "Original companion prose, diagrams, metadata structure, and validation code only; no rights in linked third-party works.",
+    "official": false,
+    "implementation_included": false,
+    "experiments_reproduced": false,
+    "pdf_redistributed": false,
+    "original_figures_redistributed": false,
+    "prompts_redistributed": false,
+    "writing": "AI-assisted original explanatory notes with source and pixel review"
+  },
+  "provenance": {
+    "checked_on": "2026-10-12",
+    "attachment_content_read": true,
+    "attachment_byte_equality_verified": false,
+    "attachment_comparison": "Title, author order, v1 stamp/date, 29-page count, and reported file size match the independent public PDF. Native Library local transfer could not complete required Windows metadata persistence.",
+    "inspection_source": "independently downloaded exact-version public arXiv PDF",
+    "public_pdf_bytes": 523503,
+    "public_pdf_sha256": "de52222fe3bc1d16ba62d3f193d2986b5a183a60913d5c17829cd01922e16373",
+    "full_paper_read": true,
+    "pixels_inspected": {
+      "figures": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "tables": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "algorithm": 1
+    },
+    "source_record": "SOURCES.md"
+  },
+  "navigation": {
+    "human_entry": "README.md",
+    "agent_entry": "AGENTS.md",
+    "agent_index": "llms.txt",
+    "reading_map": "docs/reading-map.md",
+    "method": "docs/method.md",
+    "notation": "docs/notation.md",
+    "evaluation": "docs/evaluation.md",
+    "results": "docs/results.md",
+    "visual_guide": "docs/visual-guide.md",
+    "limitations": "docs/limitations.md",
+    "reproduction": "docs/reproduction.md",
+    "citation": "CITATION.cff",
+    "bibtex": "references/paper.bib",
+    "structured_results": "data/main-comparison.json"
+  }
+}
